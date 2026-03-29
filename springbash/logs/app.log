@@ -12,13 +12,15 @@
 [INFO] Copying 0 resource from src\main\resources to target\classes
 [INFO] 
 [INFO] --- compiler:3.14.1:compile (default-compile) @ springbash ---
-[INFO] Nothing to compile - all classes are up to date.
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug parameters release 17] to target\classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ springbash ---
 [INFO] skip non existing resourceDirectory C:\Users\dell\Desktop\S6\archRepartie\JEE\TP14\springbash\src\test\resources
 [INFO] 
 [INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ springbash ---
-[INFO] Nothing to compile - all classes are up to date.
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
 [INFO] 
 [INFO] <<< spring-boot:3.5.13:run (default-cli) < test-compile @ springbash <<<
 [INFO] 
@@ -35,23 +37,23 @@
 
  :: Spring Boot ::               (v3.5.13)
 
-2026-03-29T15:08:16.435+01:00  INFO 12128 --- [springbash] [           main] m.ens.springbash.SpringbashApplication   : Starting SpringbashApplication using Java 17.0.11 with PID 12128 (C:\Users\dell\Desktop\S6\archRepartie\JEE\TP14\springbash\target\classes started by dell in C:\Users\dell\Desktop\S6\archRepartie\JEE\TP14\springbash)
-2026-03-29T15:08:16.439+01:00  INFO 12128 --- [springbash] [           main] m.ens.springbash.SpringbashApplication   : No active profile set, falling back to 1 default profile: "default"
-2026-03-29T15:08:17.303+01:00  INFO 12128 --- [springbash] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-29T15:08:17.326+01:00  INFO 12128 --- [springbash] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2026-03-29T15:08:18.213+01:00  INFO 12128 --- [springbash] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
-2026-03-29T15:08:18.248+01:00  INFO 12128 --- [springbash] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-29T15:08:18.248+01:00  INFO 12128 --- [springbash] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
-2026-03-29T15:08:18.409+01:00  INFO 12128 --- [springbash] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-29T15:08:18.410+01:00  INFO 12128 --- [springbash] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1903 ms
-2026-03-29T15:08:18.724+01:00  INFO 12128 --- [springbash] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-29T15:08:18.948+01:00  INFO 12128 --- [springbash] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
-2026-03-29T15:08:19.085+01:00  INFO 12128 --- [springbash] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-29T15:08:19.821+01:00  INFO 12128 --- [springbash] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-29T15:08:19.908+01:00  INFO 12128 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-29T15:08:20.516+01:00  INFO 12128 --- [springbash] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2026-03-29T15:08:20.518+01:00  INFO 12128 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-29T15:08:20.645+01:00  INFO 12128 --- [springbash] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-29T15:19:27.032+01:00  INFO 21312 --- [springbash] [           main] m.ens.springbash.SpringbashApplication   : Starting SpringbashApplication using Java 17.0.11 with PID 21312 (C:\Users\dell\Desktop\S6\archRepartie\JEE\TP14\springbash\target\classes started by dell in C:\Users\dell\Desktop\S6\archRepartie\JEE\TP14\springbash)
+2026-03-29T15:19:27.035+01:00  INFO 21312 --- [springbash] [           main] m.ens.springbash.SpringbashApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-29T15:19:28.346+01:00  INFO 21312 --- [springbash] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-29T15:19:28.389+01:00  INFO 21312 --- [springbash] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2026-03-29T15:19:29.501+01:00  INFO 21312 --- [springbash] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2026-03-29T15:19:29.553+01:00  INFO 21312 --- [springbash] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-29T15:19:29.554+01:00  INFO 21312 --- [springbash] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.53]
+2026-03-29T15:19:29.743+01:00  INFO 21312 --- [springbash] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-29T15:19:29.745+01:00  INFO 21312 --- [springbash] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2026-03-29T15:19:30.177+01:00  INFO 21312 --- [springbash] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-29T15:19:30.397+01:00  INFO 21312 --- [springbash] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.45.Final
+2026-03-29T15:19:30.529+01:00  INFO 21312 --- [springbash] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-29T15:19:31.396+01:00  INFO 21312 --- [springbash] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-29T15:19:31.506+01:00  INFO 21312 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-29T15:19:32.073+01:00  INFO 21312 --- [springbash] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-29T15:19:32.075+01:00  INFO 21312 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-29T15:19:32.288+01:00  INFO 21312 --- [springbash] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -59,17 +61,17 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-29T15:08:21.424+01:00  INFO 12128 --- [springbash] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-29T15:08:21.430+01:00  INFO 12128 --- [springbash] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-29T15:08:21.467+01:00  WARN 12128 --- [springbash] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-29T15:08:21.887+01:00  WARN 12128 --- [springbash] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2026-03-29T15:08:21.888+01:00  INFO 12128 --- [springbash] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-29T15:08:21.891+01:00  INFO 12128 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-29T15:08:21.899+01:00  INFO 12128 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-29T15:08:21.923+01:00  INFO 12128 --- [springbash] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-03-29T15:19:33.267+01:00  INFO 21312 --- [springbash] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-29T15:19:33.274+01:00  INFO 21312 --- [springbash] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29T15:19:33.357+01:00  WARN 21312 --- [springbash] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-29T15:19:34.036+01:00  WARN 21312 --- [springbash] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-03-29T15:19:34.041+01:00  INFO 21312 --- [springbash] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29T15:19:34.046+01:00  INFO 21312 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-29T15:19:34.053+01:00  INFO 21312 --- [springbash] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-29T15:19:34.074+01:00  INFO 21312 --- [springbash] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-03-29T15:08:21.940+01:00 ERROR 12128 --- [springbash] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2026-03-29T15:19:34.099+01:00 ERROR 21312 --- [springbash] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
 ***************************
 APPLICATION FAILED TO START
@@ -86,8 +88,8 @@ Identify and stop the process that's listening on port 8090 or configure this ap
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  10.699 s
-[INFO] Finished at: 2026-03-29T15:08:22+01:00
+[INFO] Total time:  16.649 s
+[INFO] Finished at: 2026-03-29T15:19:34+01:00
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.5.13:run (default-cli) on project springbash: Process terminated with exit code: 1 -> [Help 1]
 [ERROR] 

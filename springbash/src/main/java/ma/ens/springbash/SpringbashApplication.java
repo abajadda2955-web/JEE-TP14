@@ -8,6 +8,6 @@ public class SpringbashApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbashApplication.class, args);
+		System.out.println("✅ Application démarrée sur http://localhost:8090");
 	}
-
 }
